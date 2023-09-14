@@ -1,0 +1,140 @@
+/* Add this CSS to your existing styles */
+
+.header-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: transparent; /* Transparent background */
+  z-index: 100; /* Ensures the header appears above other content */
+  align-items: center;
+}
+
+/* Add padding or margin to the body to prevent content from being hidden behind the fixed header */
+body {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: fantasy;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.Home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 50px;
+}
+.main-data{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.partner-details{
+    width: 400px;
+}
+.name-g, .name-b{
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+.details{
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 12px;
+}
+.gender{
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* Style the header links */
+.header-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 70px;
+  font-weight: bold;
+}
+.header-data {
+  display: flex;
+  align-items: center;
+}
+.image-border{
+    width: 200px;
+    border-radius: 30px;
+}
+.image-gb{
+    width: 100%;
+    border-radius: 10px;
+}
+/* Add a hover effect to the header links */
+.header-link:hover {
+  color: #007bff; /* Change to your preferred hover color */
+}
+
+/* Style the header logo elements */
+.header-img {
+  width: 50px;
+  height: auto;
+  border-radius: 20%;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+}
+
+.log-img{
+    width: 20px;
+}
+/* welcome css */
+.wg{
+    margin-top: 20px;
+    padding: 0;
+}
+.date{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.welcome-time{
+    background-color: bisque;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.border-time{
+    border: 1px solid black;
+    padding: 30px;
+    width: 300px;
+    border-style: dashed;
+    
+}
+/* gallery */
+.gallery{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-videp{
+    display: flex;
+    justify-content: center;
+}
