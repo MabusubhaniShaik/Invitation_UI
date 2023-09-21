@@ -128,8 +128,8 @@ p {
 }
 
 .welcome-time {
-  background-color: bisque;
-  width: 500px;
+  /* background-color: bisque; */
+  /* width: 500px; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -159,4 +159,46 @@ p {
 .gallery-videp {
   display: flex;
   justify-content: center;
+}
+.time{
+  background-color: blanchedalmond;
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.steps{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-bottom: 30px;
+  
+}
+.step1-img,
+.step-exp{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.step-heading{
+  display: flex;
+  justify-content: center;
+}
+.step-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.stepimg{
+  width: 100%;
+  border-radius: 20px;
+}
+.steps-data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
