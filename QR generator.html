@@ -1,38 +1,28 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <title>QR Code Generator</title>
-    <link rel="stylesheet" type="text/css" href="./css/QR.css">
-</head>
-<body>
-    <div class="container">
-        <h1>QR Code Generator</h1>
-        <label for="urlInput">Enter URL or Text:</label>
-        <input type="text" id="urlInput" placeholder="https://example.com">
-        <button onclick="updateQRCode()">Generate QR Code</button>
-        <div id="qrcode"></div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-    <script src="./js/QRgenerator.js"></script>
-</body>
-</html> -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator</title>
     <link rel="stylesheet" href="./css/QR.css">
 </head>
+
 <body>
     <div class="container">
         <h1>QR Code Generator</h1>
         <div class="qr-code">
-            <img id="qr-image" src="https://api.qrserver.com/v1/create-qr-code/?data=f*ck%20you%20B**ch&size=150x150" alt="QR Code">
+            <img id="qr-image" src="https://api.qrserver.com/v1/create-qr-code/?data=QR%20you%20code&size=150x150"
+                alt="QR Code">
         </div>
-        <input type="text" id="qr-input" placeholder="Enter Text or URL">
+        <div class="text-bar">
+            <input type="text" id="qr-input" placeholder="Enter Text or URL">
+            <span class="close-icon" id="clear-input">&times;</span>
+        </div>
         <button id="generate-button">Generate QR Code</button>
+        <button id="download-button">Download</button>
     </div>
     <script src="./js/QRgenerator.js"></script>
 </body>
+
 </html>

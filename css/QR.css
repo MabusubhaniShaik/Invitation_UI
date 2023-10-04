@@ -26,7 +26,7 @@ h1 {
 }
 
 input[type="text"] {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -36,7 +36,7 @@ input[type="text"] {
 }
 
 button {
-    background-color: #A9F5F2; /* Light blue background color */
+    background-color: #1c2525; /* Light blue background color */
     color: white; /* Text color */
     border: none;
     border-radius: 5px;
@@ -47,3 +47,10 @@ button {
 button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+.close-icon {
+    cursor: pointer;
+    color: rgb(85, 155, 194);
+    font-size: 20px;
+    margin-left: 5px;
+}
+
